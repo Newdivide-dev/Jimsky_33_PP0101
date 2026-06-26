@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" styleClass="root" prefHeight="600.0" prefWidth="900.0"
+      xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.music.RegisterController">
+
+    <children>
+        <Label text="РЕГИСТРАЦИЯ" style="-fx-text-fill: white; -fx-font-size: 32; -fx-font-weight: bold;"/>
+
+        <VBox alignment="CENTER" maxWidth="320" spacing="12">
+            <TextField fx:id="usernameField" promptText="Придумайте логин" style="-fx-background-radius: 20;"/>
+            <PasswordField fx:id="passwordField" promptText="Придумайте пароль" style="-fx-background-radius: 20;"/>
+            <PasswordField fx:id="confirmPasswordField" promptText="Повторите пароль" style="-fx-background-radius: 20;"/>
+        </VBox>
+
+        <Button text="Зарегистрироваться" onAction="#handleRegister" prefWidth="220" styleClass="play-button"/>
+        <Button text="Уже есть аккаунт? Войти" onAction="#handleBackToLogin" style="-fx-background-color: transparent; -fx-text-fill: #b3b3b3;"/>
+
+        <Label fx:id="statusLabel" style="-fx-font-size: 14; -fx-font-weight: bold; -fx-padding: 10 0 0 0;"/>
+    </children>
+</VBox>

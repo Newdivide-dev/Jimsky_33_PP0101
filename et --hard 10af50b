@@ -1,0 +1,20 @@
+[33m10af50b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: reset: moving to 10af50b
+[33m10af50b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{1}: reset: moving to 10af50b
+[33m10af50b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{2}: reset: moving to 10af50b
+[33m7c1ec92[m HEAD@{3}: rebase (abort): returning to refs/heads/main
+[33m7c1ec92[m HEAD@{4}: rebase (abort): returning to refs/heads/main
+[33m7c1ec92[m HEAD@{5}: commit: chore: remove release folder and add .gitignore
+[33m10af50b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{6}: commit (amend): Initial commit - SoundWave project
+[33m444c13f[m HEAD@{7}: reset: moving to 444c13f
+[33m444c13f[m HEAD@{8}: Branch: renamed refs/heads/main to refs/heads/main
+[33m444c13f[m HEAD@{10}: Branch: renamed refs/heads/master to refs/heads/main
+[33m444c13f[m HEAD@{12}: commit: Initial commit - SoundWave project
+[33m2771c67[m HEAD@{13}: commit: feat: загрузка исходного кода проекта
+[33mdcdf795[m HEAD@{14}: commit: docs: обновление README.md с описанием структуры и инструкциями по запуску
+[33ma86d8cb[m HEAD@{15}: commit: test: добавление JUnit тестов для проверки DatabaseHandler и валидации данных
+[33m7160b4b[m HEAD@{16}: commit: feat: добавление глобальных стилей (style.css) и улучшение визуального интерфейса
+[33m49a6d3b[m HEAD@{17}: commit: fix: устранение NullPointerException при загрузке стилей UI и корректировка SQL-запросов
+[33m3689f27[m HEAD@{18}: commit: feat: реализация CRUD операций и интеграция TableView для отображения данных
+[33ma075481[m HEAD@{19}: commit: feat: создание базовой структуры FXML для главного окна (main-view.fxml) и контроллера
+[33m233c286[m HEAD@{20}: commit: feat: настройка подключения к базе данных через DatabaseHandler и пул соединений
+[33m9f21266[m HEAD@{21}: commit (initial): Initial commit: инициализация проекта Maven, добавление зависимостей JavaFX и PostgreSQL

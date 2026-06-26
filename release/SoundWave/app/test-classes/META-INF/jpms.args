@@ -1,0 +1,4 @@
+--patch-module
+org.example.music=_
+--add-reads
+org.example.music=ALL-UNNAMED

@@ -1,0 +1,12 @@
+org\example\music\AuthController.class
+org\example\music\MainController$RepeatMode.class
+org\example\music\Track.class
+org\example\music\MainLauncher.class
+org\example\music\MainController.class
+org\example\music\MainController$1.class
+module-info.class
+org\example\music\RegisterController.class
+org\example\music\DatabaseHandler.class
+org\example\music\MainApp.class
+org\example\music\UserSession.class
+org\example\music\Playlist.class

@@ -1,0 +1,80 @@
+.root {
+    -fx-background-color: #121212;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.side-bar {
+    -fx-background-color: #000000;
+    -fx-padding: 15;
+}
+
+.button {
+    -fx-background-color: #282828;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 8 16;
+}
+
+.button:hover {
+    -fx-background-color: #3e3e3e;
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+.play-button {
+    -fx-background-color: #1DB954;
+    -fx-text-fill: black;
+    -fx-background-radius: 50;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+.play-button:hover {
+    -fx-background-color: #1ed760;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #b3b3b3;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 13;
+}
+
+.table-row-cell:filled:hover { -fx-background-color: #2a2a2a; }
+.table-row-cell:filled:selected { -fx-background-color: #404040; }
+
+.slider .track { -fx-background-color: #4d4d4d; }
+.slider .bar { -fx-background-color: #1DB954; }
+.slider .thumb { -fx-background-color: white; }
+
+.playlist-list {
+    -fx-background-color: #181818;
+}
+
+.playlist-list .list-cell {
+    -fx-text-fill: #d1d1d1;
+    -fx-padding: 6 10;
+    -fx-font-size: 13;
+}
+
+.playlist-list .list-cell:filled:hover { -fx-background-color: #2a2a2a; }
+.playlist-list .list-cell:filled:selected {
+    -fx-background-color: #1DB954;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.context-menu { -fx-background-color: #282828; }
+.menu-item { -fx-text-fill: white; }
+.menu-item:hover { -fx-background-color: #3e3e3e; }
